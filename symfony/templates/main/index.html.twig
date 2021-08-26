@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+    <div class="container" style="padding-top: 100px">
+        <div class="row">
+            {{ include('main/_form.html.twig') }}
+        </div>
+        <p>Only TMDB https://www.themoviedb.org/movie/{slug}/watch available</p>
+    </div>
+
+{% endblock %}
